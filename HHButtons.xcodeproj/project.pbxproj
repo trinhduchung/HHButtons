@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B205BD671C8DC25600CFF8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205BD661C8DC25600CFF8FC /* AppDelegate.swift */; };
+		B205BD691C8DC25600CFF8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205BD681C8DC25600CFF8FC /* ViewController.swift */; };
+		B205BD6C1C8DC25600CFF8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B205BD6A1C8DC25600CFF8FC /* Main.storyboard */; };
+		B205BD6E1C8DC25600CFF8FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B205BD6D1C8DC25600CFF8FC /* Assets.xcassets */; };
+		B205BD711C8DC25600CFF8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B205BD6F1C8DC25600CFF8FC /* LaunchScreen.storyboard */; };
+		B205BD7C1C8DC25700CFF8FC /* HHButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205BD7B1C8DC25700CFF8FC /* HHButtonsTests.swift */; };
+		B205BD871C8DC25700CFF8FC /* HHButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205BD861C8DC25700CFF8FC /* HHButtonsUITests.swift */; };
+		B205BD961C8DC29B00CFF8FC /* HHLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205BD951C8DC29B00CFF8FC /* HHLoadingButton.swift */; };
+		CCECCFDA1C905B7100B3C2BE /* HHHitAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCFD91C905B7100B3C2BE /* HHHitAreaButton.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B205BD781C8DC25700CFF8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B205BD5B1C8DC25600CFF8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B205BD621C8DC25600CFF8FC;
+			remoteInfo = HHButtons;
+		};
+		B205BD831C8DC25700CFF8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B205BD5B1C8DC25600CFF8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B205BD621C8DC25600CFF8FC;
+			remoteInfo = HHButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B205BD631C8DC25600CFF8FC /* HHButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B205BD661C8DC25600CFF8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B205BD681C8DC25600CFF8FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B205BD6B1C8DC25600CFF8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B205BD6D1C8DC25600CFF8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B205BD701C8DC25600CFF8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B205BD721C8DC25600CFF8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B205BD771C8DC25700CFF8FC /* HHButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B205BD7B1C8DC25700CFF8FC /* HHButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHButtonsTests.swift; sourceTree = "<group>"; };
+		B205BD7D1C8DC25700CFF8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B205BD821C8DC25700CFF8FC /* HHButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B205BD861C8DC25700CFF8FC /* HHButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHButtonsUITests.swift; sourceTree = "<group>"; };
+		B205BD881C8DC25700CFF8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B205BD951C8DC29B00CFF8FC /* HHLoadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHLoadingButton.swift; sourceTree = "<group>"; };
+		CCECCFD91C905B7100B3C2BE /* HHHitAreaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHHitAreaButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B205BD601C8DC25600CFF8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205BD741C8DC25700CFF8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205BD7F1C8DC25700CFF8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B205BD5A1C8DC25600CFF8FC = {
+			isa = PBXGroup;
+			children = (
+				B205BD651C8DC25600CFF8FC /* HHButtons */,
+				B205BD7A1C8DC25700CFF8FC /* HHButtonsTests */,
+				B205BD851C8DC25700CFF8FC /* HHButtonsUITests */,
+				B205BD641C8DC25600CFF8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B205BD641C8DC25600CFF8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B205BD631C8DC25600CFF8FC /* HHButtons.app */,
+				B205BD771C8DC25700CFF8FC /* HHButtonsTests.xctest */,
+				B205BD821C8DC25700CFF8FC /* HHButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B205BD651C8DC25600CFF8FC /* HHButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B205BD941C8DC27A00CFF8FC /* HHButtons */,
+				B205BD661C8DC25600CFF8FC /* AppDelegate.swift */,
+				B205BD681C8DC25600CFF8FC /* ViewController.swift */,
+				B205BD6A1C8DC25600CFF8FC /* Main.storyboard */,
+				B205BD6D1C8DC25600CFF8FC /* Assets.xcassets */,
+				B205BD6F1C8DC25600CFF8FC /* LaunchScreen.storyboard */,
+				B205BD721C8DC25600CFF8FC /* Info.plist */,
+			);
+			path = HHButtons;
+			sourceTree = "<group>";
+		};
+		B205BD7A1C8DC25700CFF8FC /* HHButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B205BD7B1C8DC25700CFF8FC /* HHButtonsTests.swift */,
+				B205BD7D1C8DC25700CFF8FC /* Info.plist */,
+			);
+			path = HHButtonsTests;
+			sourceTree = "<group>";
+		};
+		B205BD851C8DC25700CFF8FC /* HHButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B205BD861C8DC25700CFF8FC /* HHButtonsUITests.swift */,
+				B205BD881C8DC25700CFF8FC /* Info.plist */,
+			);
+			path = HHButtonsUITests;
+			sourceTree = "<group>";
+		};
+		B205BD941C8DC27A00CFF8FC /* HHButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B205BD951C8DC29B00CFF8FC /* HHLoadingButton.swift */,
+				CCECCFD91C905B7100B3C2BE /* HHHitAreaButton.swift */,
+			);
+			path = HHButtons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B205BD621C8DC25600CFF8FC /* HHButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B205BD8B1C8DC25700CFF8FC /* Build configuration list for PBXNativeTarget "HHButtons" */;
+			buildPhases = (
+				B205BD5F1C8DC25600CFF8FC /* Sources */,
+				B205BD601C8DC25600CFF8FC /* Frameworks */,
+				B205BD611C8DC25600CFF8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHButtons;
+			productName = HHButtons;
+			productReference = B205BD631C8DC25600CFF8FC /* HHButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B205BD761C8DC25700CFF8FC /* HHButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B205BD8E1C8DC25700CFF8FC /* Build configuration list for PBXNativeTarget "HHButtonsTests" */;
+			buildPhases = (
+				B205BD731C8DC25700CFF8FC /* Sources */,
+				B205BD741C8DC25700CFF8FC /* Frameworks */,
+				B205BD751C8DC25700CFF8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B205BD791C8DC25700CFF8FC /* PBXTargetDependency */,
+			);
+			name = HHButtonsTests;
+			productName = HHButtonsTests;
+			productReference = B205BD771C8DC25700CFF8FC /* HHButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B205BD811C8DC25700CFF8FC /* HHButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B205BD911C8DC25700CFF8FC /* Build configuration list for PBXNativeTarget "HHButtonsUITests" */;
+			buildPhases = (
+				B205BD7E1C8DC25700CFF8FC /* Sources */,
+				B205BD7F1C8DC25700CFF8FC /* Frameworks */,
+				B205BD801C8DC25700CFF8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B205BD841C8DC25700CFF8FC /* PBXTargetDependency */,
+			);
+			name = HHButtonsUITests;
+			productName = HHButtonsUITests;
+			productReference = B205BD821C8DC25700CFF8FC /* HHButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B205BD5B1C8DC25600CFF8FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HH;
+				TargetAttributes = {
+					B205BD621C8DC25600CFF8FC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B205BD761C8DC25700CFF8FC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B205BD621C8DC25600CFF8FC;
+					};
+					B205BD811C8DC25700CFF8FC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B205BD621C8DC25600CFF8FC;
+					};
+				};
+			};
+			buildConfigurationList = B205BD5E1C8DC25600CFF8FC /* Build configuration list for PBXProject "HHButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B205BD5A1C8DC25600CFF8FC;
+			productRefGroup = B205BD641C8DC25600CFF8FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B205BD621C8DC25600CFF8FC /* HHButtons */,
+				B205BD761C8DC25700CFF8FC /* HHButtonsTests */,
+				B205BD811C8DC25700CFF8FC /* HHButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B205BD611C8DC25600CFF8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B205BD711C8DC25600CFF8FC /* LaunchScreen.storyboard in Resources */,
+				B205BD6E1C8DC25600CFF8FC /* Assets.xcassets in Resources */,
+				B205BD6C1C8DC25600CFF8FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205BD751C8DC25700CFF8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205BD801C8DC25700CFF8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B205BD5F1C8DC25600CFF8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B205BD691C8DC25600CFF8FC /* ViewController.swift in Sources */,
+				B205BD671C8DC25600CFF8FC /* AppDelegate.swift in Sources */,
+				CCECCFDA1C905B7100B3C2BE /* HHHitAreaButton.swift in Sources */,
+				B205BD961C8DC29B00CFF8FC /* HHLoadingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205BD731C8DC25700CFF8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B205BD7C1C8DC25700CFF8FC /* HHButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B205BD7E1C8DC25700CFF8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B205BD871C8DC25700CFF8FC /* HHButtonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B205BD791C8DC25700CFF8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B205BD621C8DC25600CFF8FC /* HHButtons */;
+			targetProxy = B205BD781C8DC25700CFF8FC /* PBXContainerItemProxy */;
+		};
+		B205BD841C8DC25700CFF8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B205BD621C8DC25600CFF8FC /* HHButtons */;
+			targetProxy = B205BD831C8DC25700CFF8FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B205BD6A1C8DC25600CFF8FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B205BD6B1C8DC25600CFF8FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B205BD6F1C8DC25600CFF8FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B205BD701C8DC25600CFF8FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B205BD891C8DC25700CFF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B205BD8A1C8DC25700CFF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B205BD8C1C8DC25700CFF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHButtons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.HHButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B205BD8D1C8DC25700CFF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHButtons/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.HHButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B205BD8F1C8DC25700CFF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HHButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.HHButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHButtons.app/HHButtons";
+			};
+			name = Debug;
+		};
+		B205BD901C8DC25700CFF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HHButtonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.HHButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHButtons.app/HHButtons";
+			};
+			name = Release;
+		};
+		B205BD921C8DC25700CFF8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HHButtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.HHButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHButtons;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B205BD931C8DC25700CFF8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HHButtonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HH.HHButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHButtons;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B205BD5E1C8DC25600CFF8FC /* Build configuration list for PBXProject "HHButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B205BD891C8DC25700CFF8FC /* Debug */,
+				B205BD8A1C8DC25700CFF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B205BD8B1C8DC25700CFF8FC /* Build configuration list for PBXNativeTarget "HHButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B205BD8C1C8DC25700CFF8FC /* Debug */,
+				B205BD8D1C8DC25700CFF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B205BD8E1C8DC25700CFF8FC /* Build configuration list for PBXNativeTarget "HHButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B205BD8F1C8DC25700CFF8FC /* Debug */,
+				B205BD901C8DC25700CFF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B205BD911C8DC25700CFF8FC /* Build configuration list for PBXNativeTarget "HHButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B205BD921C8DC25700CFF8FC /* Debug */,
+				B205BD931C8DC25700CFF8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B205BD5B1C8DC25600CFF8FC /* Project object */;
+}
